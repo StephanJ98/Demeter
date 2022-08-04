@@ -1,5 +1,9 @@
 # Demeter
 
-## Prototype of the first release
+## Prototypes of the first release
 
-![Prototype](Documents/Demeter.png)
+### Web Prototype
+![Prototype Web](Documents/DemeterWeb.png)
+
+### Phone Prototype
+![Prototype Phone](Documents/DemeterPhone.png)
