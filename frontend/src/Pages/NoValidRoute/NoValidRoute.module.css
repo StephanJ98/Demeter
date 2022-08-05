@@ -1,0 +1,16 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#mesage {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#err404 {
+    height: 200px;
+}
