@@ -1,14 +1,21 @@
+@font-face {
+    font-family: 'NunitoExtraBold';
+    src: url(../../Fonts/Nunito/static/Nunito-ExtraBold.ttf) format('truetype');
+}
+
 #main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #8f8f8f;
 }
 
 #mesage {
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 60px;
+    font-family: 'NunitoExtraBold', serif;
+    text-align: center;
 }
 
 #err404 {
