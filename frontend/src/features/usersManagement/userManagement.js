@@ -10,6 +10,7 @@ export const userManagement = createSlice({
     }
 })
 
-export const {} = userManagement.actions
+//export const {} = userManagement.actions   def
+export const actions = userManagement.actions
 
 export default userManagement.reducer
