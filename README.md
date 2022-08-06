@@ -1,3 +1,7 @@
+# __Demeter__
+
+***
+
 1. [Description](#description)
 2. [Installation](#installation)
 3. [Available Scripts](#available-scripts)
@@ -20,7 +24,7 @@ In the long run it is expected to be able to deal with weekly and monthly events
 The installation of the development version will be done as for a project with [ReactJS](https://reactjs.org/).
 
 1. Make sure you have installed a version equal to or higher than `v16.16.0` of [NodeJs](https://nodejs.org/en/).
-    > With the installation of `NodeJs NPM` is already installed but we strongly recommend using [yarn](https://yarnpkg.com/). You can use the stable version or the classic version, but with the classic you may have to configure certain files.
+    > With the installation of `NodeJs NPM` is already installed but we strongly recommend using [yarn](https://yarnpkg.com/). You can use the stable version or the classic version, but with the stable you may have to configure certain files.
 
 2. Make sure you have installed a verion equal to or higher than `v2.37.1` of [GIT](https://git-scm.com/).
 
