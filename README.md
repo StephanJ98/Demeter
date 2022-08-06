@@ -2,8 +2,8 @@
 2. [Installation](#installation)
 3. [Available Scripts](#available-scripts)
 4. [Images of prototypes](#prototypes-of-the-first-release)
-    1. [Web Prototype](#web)
-    2. [Phone Prototype](#phone)
+    * [Web Prototype](#web)
+    * [Phone Prototype](#phone)
 
 ***
 
@@ -28,17 +28,11 @@ The installation of the development version will be done as for a project with [
 
 > For the following steps, depending on whether you are using `NPM` or `Yarn`, you should use the appropriate command, depending on whether you are using `NPM` or `Yarn`. 
 
-4. Open a command terminal and run the command:
-    * `yarn`
-    * `npm install`
+4. Open a command terminal and run the command __`yarn`__ or __`npm install`__.
 
-5. Access the `backend` folder and run the command:
-    * `yarn`
-    * `npm install`
+5. Access the `backend` folder and run the command __`yarn`__ or __`npm install`__.
 
-6. Access the `frontend` folder and run the command:
-    * `yarn`
-    * `npm install`
+6. Access the `frontend` folder and run the command __`yarn`__ or __`npm install`__.
 
 > Once these commands are executed you will have all the necessary dependencies installed. And you can start participating in the project.
 
@@ -84,7 +78,26 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## __Prototypes of the first release__
 
 ### __Web__
+
+> In the image you can see a first version, made with [Figma](https://www.figma.com/). And that will be what the first web version of `Demeter` should look like.
+
+> It remains to define what the header will look like, that is why a large space has been left where the different options are supposed to go.
+
 ![Prototype Web](Documents/DemeterWeb.png)
 
 ### __Phone__
+
+> The mobile version is still a crazy project that may not get off the ground, but a possible first release would look something like this. \
+And who knows, we may even put on a sleepless night and pull it off. But for that he is going to do, he needs a lot of tea and coffee.
+
 ![Prototype Phone](Documents/DemeterPhone.png)
+
+***
+
+## __Technology Stack__
+
+* [NodeJs](https://nodejs.org/en/) &rarr; `v16.16.0`
+* [ReactJs](https://reactjs.org/) &rarr; `v18.2.0`
+* [react-router-dom](https://reactrouter.com/) &rarr; `v6`
+* [react-redux](https://react-redux.js.org/) &rarr; `v8.0.2`
+* [nodemon](https://nodemon.io/) &rarr; `v2.0.19`
