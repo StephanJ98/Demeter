@@ -5,7 +5,8 @@
 1. [Description](#description)
 2. [Installation](#installation)
 3. [Available Scripts](#available-scripts)
-4. [Images of prototypes](#prototypes-of-the-first-release)
+4. [Working Repository Branches](#working-repository-branches)
+5. [Images of prototypes](#prototypes-of-the-first-release)
     * [Web Prototype](#web)
     * [Phone Prototype](#phone)
 
@@ -76,6 +77,16 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+***
+
+## __Working Repository Branches__
+
+There are 3 main branches for development.
+
+* __`main`__: As its name suggests, it is the main development branch and where all the final changes will go.
+* __`fontend`__: In this branch all the changes that are being developed in the frontend part are carried out and that after testing and approval will go to the `main` branch.
+* __`backend`__: In this branch all the changes that are being developed in the backend and the data base parts are carried out and that after testing and approval will go to the `main` branch.
 
 ***
 
