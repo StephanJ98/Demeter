@@ -88,7 +88,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ### __Phone__
 
 > The mobile version is still a crazy project that may not get off the ground, but a possible first release would look something like this. \
-And who knows, we may even put on a sleepless night and pull it off. But for that he is going to do, he needs a lot of tea and coffee.
+And who knows, we may even put on a sleepless night and pull it off. But for that we are going to need a lot of tea and coffee.
 
 ![Prototype Phone](Documents/DemeterPhone.png)
 
