@@ -114,5 +114,5 @@ And who knows, we may even put on a sleepless night and pull it off. But for tha
 * [NodeJs](https://nodejs.org/en/) &rarr; `v16.16.0`
 * [ReactJs](https://reactjs.org/) &rarr; `v18.2.0`
 * [react-router-dom](https://reactrouter.com/) &rarr; `v6`
-* [react-redux](https://react-redux.js.org/) &rarr; `v8.0.2`
+* [recoil](https://recoiljs.org/) &rarr; `v0.7.4`
 * [nodemon](https://nodemon.io/) &rarr; `v2.0.19`
