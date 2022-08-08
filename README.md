@@ -9,6 +9,7 @@
 5. [Images of prototypes](#prototypes-of-the-first-release)
     * [Web Prototype](#web)
     * [Phone Prototype](#phone)
+6. [Technology Stack](#technology-stack)
 
 ***
 
