@@ -1,0 +1,8 @@
+#main {
+    flex: 7;
+    width: calc(100vw - 40px);
+    margin: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #3b3b3b;
+}
