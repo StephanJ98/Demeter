@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import styles from './Header.module.css'
 import Search from '../../../Icons/Search.svg'
+import AddTask from './AddTask/AddTask'
+import ImportTask from './ImportTask/ImportTask'
+import LogOut from './LogOut/LogOut'
 
 export default function Header() {
   const [search, setSearch] = useState('')
@@ -28,7 +31,9 @@ export default function Header() {
         </form>
       </div>
       <div id={styles.lowerRow}>
-        Other Options
+        <AddTask />
+        <ImportTask />
+        <LogOut />
       </div>
     </div>
   )
