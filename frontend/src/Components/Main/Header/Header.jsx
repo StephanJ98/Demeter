@@ -3,6 +3,7 @@ import styles from './Header.module.css'
 import Search from '../../../Icons/Search.svg'
 import AddTask from './AddTask/AddTask'
 import ImportTask from './ImportTask/ImportTask'
+import LogOut from './LogOut/LogOut'
 
 export default function Header() {
   const [search, setSearch] = useState('')
@@ -32,6 +33,7 @@ export default function Header() {
       <div id={styles.lowerRow}>
         <AddTask />
         <ImportTask />
+        <LogOut />
       </div>
     </div>
   )

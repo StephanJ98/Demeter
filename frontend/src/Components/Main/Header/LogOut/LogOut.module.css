@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'NunitoExtraBold';
+    src: url(../../../../Fonts/Nunito/static/Nunito-ExtraBold.ttf) format('truetype');
+}
+
+#container {
+    flex: 1;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: 'NunitoExtraBold', serif;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    #container {
+        margin: 0px;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 95%;
+        font-size: 20px;
+        border-radius: 5px;
+        align-self: center;
+    }
+}

@@ -66,6 +66,17 @@ h1 {
         flex-direction: column;
     }
 
+    #lowerRow {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 95%;
+        align-self: center;
+    }
+
+    #lowerRow > * {
+        max-width: 180px;
+    }
+
     h1 {
         color: #f9f9fa;
         font-family: 'NunitoExtraBold', serif;
