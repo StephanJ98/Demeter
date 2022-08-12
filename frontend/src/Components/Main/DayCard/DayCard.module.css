@@ -21,3 +21,35 @@
     width: 100%;
     height: 100%;
 }
+
+@media only screen and (min-width: 600px) {
+    #dayCard {
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid aliceblue;
+        border-radius: 10px;
+        height: auto;
+        width: 100%;
+    }
+    
+    #dayName {
+        background-color: aliceblue;
+        border-radius: 10px;
+        border: 1px solid aliceblue;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #dayTasks {
+        flex: 9;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 10px;
+    }
+}
