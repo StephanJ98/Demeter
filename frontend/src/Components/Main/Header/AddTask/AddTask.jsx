@@ -15,7 +15,8 @@ export default function AddTask() {
             <ReactModal
                 isOpen={isOpen}
                 appElement={document.body}
-                id={styles.addTaskModal}
+                overlayClassName={styles.overlayOptionsModal}
+                className={styles.taskModal}
             >
                 <button id={styles.modalBtn} onClick={() => setIsOpen(false)}>
                     <img src={Close} alt="Close Button" />

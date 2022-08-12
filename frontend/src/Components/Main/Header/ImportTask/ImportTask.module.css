@@ -31,7 +31,7 @@
     left: 15px;
 }
 
-#addTaskModal {
+.taskModal {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -39,18 +39,11 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-    #container {
-        margin: 0px;
-        margin-right: 5px;
-        margin-left: 5px;
-        width: 95%;
-        align-self: center;
-        border-radius: 5px;
-    }
-
-    #btn > p {
-        font-family: 'NunitoExtraBold', serif;
-        font-size: 20px;
-    }
+.overlayOptionsModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #cecece;
 }

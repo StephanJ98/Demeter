@@ -47,6 +47,7 @@ h1 {
 #searchIcon {
     height: 40px;
     padding-right: 5px;
+    padding-left: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: #f9f9fa;
@@ -57,6 +58,43 @@ h1 {
     flex-direction: row;
     justify-content: space-evenly;
     height: 100%;
+}
+
+#optionsBtn {
+    background-color: transparent;
+    position: absolute;
+    right: 7%;
+    top: 25px;
+}
+
+#optionsBtn > * {
+    fill: #f9f9fa;
+}
+
+.optionsModal {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.overlayOptionsModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #cecece;
+}
+
+#modalBtn {
+    background: transparent;
+    position: absolute;
+    margin: 0;
+    top: 15px;
+    left: 15px;
 }
 
 /* Media queries */
@@ -103,6 +141,8 @@ h1 {
     
     #searchIcon {
         height: 40px;
+        padding-right: 2px;
+        padding-left: 2px;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
         background-color: #f9f9fa;
