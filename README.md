@@ -116,3 +116,7 @@ And who knows, we may even put on a sleepless night and pull it off. But for tha
 * [react-router-dom](https://reactrouter.com/) &rarr; `v6`
 * [recoil](https://recoiljs.org/) &rarr; `v0.7.4`
 * [nodemon](https://nodemon.io/) &rarr; `v2.0.19`
+* [Express](https://expressjs.com/) &rarr; `v4.18.1`
+* [MongoDB](https://www.mongodb.com) &rarr; `v4.8.1`
+* [dotenv](https://github.com/motdotla/dotenv) &rarr; `v16.0.1`
+* [cors](https://github.com/expressjs/cors) &rarr; `v2.8.5`
