@@ -13,7 +13,7 @@ export default function RegisterForm() {
         setPassword(value)
     }
 
-    const handleSubmit = (event) => {
+    const handleSubmit = async (event) => {
         event.preventDefault()
         //ToDo
         /**
@@ -21,6 +21,7 @@ export default function RegisterForm() {
          * 1.1. Call API
          * 1.2. Process API response
          */
+
         alert('ToDo')
     }
 
