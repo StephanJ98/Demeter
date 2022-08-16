@@ -83,11 +83,10 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## __Working Repository Branches__
 
-There are 3 main branches for development.
+There are one main branch for development.
 
 * __`main`__: As its name suggests, it is the main development branch and where all the final changes will go.
-* __`fontend`__: In this branch all the changes that are being developed in the frontend part are carried out and that after testing and approval will go to the `main` branch.
-* __`backend`__: In this branch all the changes that are being developed in the backend and the data base parts are carried out and that after testing and approval will go to the `main` branch.
+> For new features, it is recommended to create a new branch.
 
 ***
 
