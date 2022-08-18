@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
 import styles from './RegisterForm.module.css'
 import { useNavigate } from "react-router-dom"
+//import bcrypt from 'bcrypt'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
 export default function RegisterForm() {
     let navigate = useNavigate()
     const notify = (value) => toast.error(value)
-
+    const saltRounds = 10
     const [name, setName] = useState('')
     const [password, setPassword] = useState('')
 
@@ -21,6 +22,11 @@ export default function RegisterForm() {
 
     const handleSubmit = async (event) => {
         event.preventDefault()
+        /*let tempPassword = ''
+        bcrypt.hash(password, saltRounds, (err, hash) => {
+            tempPassword = hash
+        })*/
+
 
         /** Register request */
         fetch('http://localhost:4000/register', {
@@ -28,7 +34,7 @@ export default function RegisterForm() {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 name: name,
-                password: password
+                password: /*tempPassword*/ password
             })
         }).then(res => {
             if (res.status === 200) {

@@ -84,4 +84,13 @@ export default function (app) {
     /** Main Routes */
 
 
+    /** ####################################################################################### **/
+    /** Los ejercicios de Ruben */
+
+    app.get("/ruben", (_, res) => {
+        let abcd = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'ñ', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+        let randomizeABCD = abcd.sort((a, b) => 0.5 - Math.random())
+        res.json({ letras: randomizeABCD })
+    })
 }
