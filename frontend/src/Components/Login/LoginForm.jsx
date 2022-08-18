@@ -16,6 +16,7 @@ export default function LoginForm() {
         if (cookies.loginUserName !== undefined) {
             navigate("/")
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     const handleName = (value) => {
