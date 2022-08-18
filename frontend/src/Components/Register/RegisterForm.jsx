@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css'
 export default function RegisterForm() {
     let navigate = useNavigate()
     const notify = (value) => toast.error(value)
-    const saltRounds = 10
+    //const saltRounds = 10
     const [name, setName] = useState('')
     const [password, setPassword] = useState('')
 
