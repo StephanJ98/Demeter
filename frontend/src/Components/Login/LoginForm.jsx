@@ -39,7 +39,6 @@ export default function LoginForm() {
                 }
                 if (res.status === 200) {
                     let data = await res.json()
-                    console.log(data.user.password)
                     if (data.user.password === password) {
                         setCookies('loginUserName', name, { path: '/', maxAge: 600 })
                         setCookies('loginHashPassword', password, { path: '/', maxAge: 600 })

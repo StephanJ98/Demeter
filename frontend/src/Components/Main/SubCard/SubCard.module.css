@@ -1,0 +1,15 @@
+.weekTask {
+    background-color: #dee5eb;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#startHour {
+    text-align: left;
+    margin-left: 3px;
+}
+
+#endHour {
+    text-align: right;
+    margin-right: 3px;
+}
