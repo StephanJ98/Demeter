@@ -1,0 +1,27 @@
+.padre {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.hijo {
+    height: 50%;
+    width: calc(80% - 20px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-right: 2px solid red;
+    border-left: 2px solid blue;
+    border-bottom: 2px solid green;
+    border-top: 2px solid gray;
+
+    /*Opcional*/
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}

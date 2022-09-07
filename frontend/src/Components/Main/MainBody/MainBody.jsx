@@ -21,7 +21,7 @@ export default function MainBody() {
     let dataRender = (date = new Date()) => {
         let tasksId = (Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) - Date.UTC(date.getFullYear(), 0, 0)) / 86400000
         if (days !== '') {
-            return days.map((day) => <DayCard key={day} day={day} tasksId={tasksId++} />)
+            return days.map((day) => <DayCard key={day} day={day} tasksId={tasksId++} dayName={new Date(Date.parse(day) - 86400000*2).toLocaleDateString('en-US', {weekday: "long"}).toLowerCase()} />)
         }
     }
 

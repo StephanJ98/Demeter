@@ -39,14 +39,12 @@ export default function (app) {
             const cluster = await connectToDatabase(process.env.MONGODB_URI)
             await cluster.collection('users').find({ name: name }, {
                 projection: {
-                    _id: 0,
-                    name: 1,
-                    password: 1
+                    _id: 0
                 }
             }).toArray((err, result) => {
                 if (err) res.sendStatus(400)
                 if (result.length === 0) res.sendStatus(281) /* No existe el usuario con ese email*/
-                else res.json({ password: result[0].password })
+                else res.json({ user: result[0] })
             })
         } catch (error) {
             console.log(error)
@@ -71,7 +69,16 @@ export default function (app) {
             else if (name && password) {
                 await cluster.collection('users').insertOne({
                     name: req.body.name,
-                    password: req.body.password
+                    password: req.body.password,
+                    week: {
+                        "monday": {},
+                        "tuesday": {},
+                        "wednesday": {},
+                        "thursday": {},
+                        "friday": {}
+                    },
+                    plans: {}
+
                 })
                 res.sendStatus(200)
             } else res.sendStatus(400)
