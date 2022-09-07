@@ -67,7 +67,11 @@ export default function RegisterForm() {
                     onChange={(e) => handlePassword(e.target.value)}
                     id={styles.passwordRegister} />
 
-                <button id={styles.btnRegister} onClick={(e) => handleSubmit(e)} type="submit">Register</button>
+
+                <div id={styles.btnContainer}>
+                    <button className={styles.btnRegister} onClick={(e) => handleSubmit(e)} type="submit">Register</button>
+                    <button className={styles.btnRegister} onClick={() => navigate("/login")} type="submit">Or Login ?</button>
+                </div>
             </form>
             <ToastContainer
                 position="top-right"
@@ -79,7 +83,7 @@ export default function RegisterForm() {
                 pauseOnFocusLoss
                 draggable
                 pauseOnHover
-                theme='dark'/>
+                theme='dark' />
         </>
     )
 }

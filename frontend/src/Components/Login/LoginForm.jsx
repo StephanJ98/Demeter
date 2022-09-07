@@ -38,10 +38,12 @@ export default function LoginForm() {
                     notify("No hay usuario con este email registrado.")
                 }
                 if (res.status === 200) {
-                    let pass = await res.json()
-                    if (pass.password === password) {
+                    let data = await res.json()
+                    console.log(data.user.password)
+                    if (data.user.password === password) {
                         setCookies('loginUserName', name, { path: '/', maxAge: 600 })
                         setCookies('loginHashPassword', password, { path: '/', maxAge: 600 })
+                        setCookies('userWeekPlan', JSON.stringify(data.user.week), { path: '/', maxAge: 600 })
                         navigate("/")
                     } else {
                         notify('Alguno de los datos es incorrecto!')
@@ -72,7 +74,10 @@ export default function LoginForm() {
                     onChange={(e) => handlePassword(e.target.value)}
                     id={styles.passwordLogin} />
 
-                <button id={styles.btnLogin} onClick={(e) => handleSubmit(e)} type="submit">Log In</button>
+                <div id={styles.btnContainer}>
+                    <button className={styles.btnLogin} onClick={(e) => handleSubmit(e)} type="submit">Log In</button>
+                    <button className={styles.btnLogin} onClick={() => navigate("/register")} type="submit">Or Register ?</button>
+                </div>
             </form>
             <ToastContainer
                 position="top-right"
