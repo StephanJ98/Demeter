@@ -8,11 +8,8 @@ export default function AddTask() {
     const [modalMode, setModalMode] = useState('normal')
 
     const handleModalCloseReturn = () => {
-        if (modalMode === 'weekly' || modalMode === 'unique') {
-            setModalMode('normal')
-        } else {
-            setIsOpen(false)
-        }
+        if (modalMode === 'weekly' || modalMode === 'unique') setModalMode('normal')
+        else setIsOpen(false)
     }
 
     const ModalCloseBtn = () => {
