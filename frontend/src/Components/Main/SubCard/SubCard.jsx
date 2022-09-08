@@ -10,15 +10,14 @@ export default function SubCard(props) {
 
     return (
         <div>
-            {/*dataRender()*/}
             {Object.keys(json).map((key, index) => {
                 return (
                     <div className={styles.weekTask} key={index}>
-                        <h5 id={styles.startHour}>{json[key][0]}</h5>
+                        <p id={styles.startHour}>{json[key][0]}</p>
                         <p>{key} {json[key][2]}</p>
-                        <h5 id={styles.endHour}>{json[key][1]}</h5>
+                        <p id={styles.endHour}>{json[key][1]}</p>
                     </div>
-                );
+                )
             })}
         </div>
     )

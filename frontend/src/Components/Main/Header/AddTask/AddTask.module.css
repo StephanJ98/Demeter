@@ -37,6 +37,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    height: 100%;
 }
 
 .overlayOptionsModal {
@@ -46,4 +47,12 @@
     right: 0;
     bottom: 0;
     background-color: #cecece;
+}
+
+#modalSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }

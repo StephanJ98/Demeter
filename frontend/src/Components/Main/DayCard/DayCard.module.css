@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'NunitoExtraBold';
+    src: url(../../../Fonts/Nunito/static/Nunito-ExtraBold.ttf) format('truetype');
+}
+
 #dayCard {
     height: 100%;
     margin: 5px;
@@ -15,6 +20,8 @@
     height: 100%;
     border-radius: 10px;
     border: 1px solid aliceblue;
+    font-family: 'NunitoExtraBold', serif;
+    font-size: 16px;
 }
 
 #dayTasks {

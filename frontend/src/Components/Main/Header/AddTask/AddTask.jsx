@@ -22,7 +22,9 @@ export default function AddTask() {
                     <img src={Close} alt="Close Button" />
                 </button>
 
-                <p>ToDo</p>
+                <section id={styles.modalSection}>
+                    aaa
+                </section>
             </ReactModal>
         </div>
     )
