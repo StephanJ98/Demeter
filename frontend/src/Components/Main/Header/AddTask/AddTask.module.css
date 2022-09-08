@@ -56,3 +56,23 @@
     align-items: center;
     height: 100%;
 }
+
+#modalSectionText {
+    font-family: 'NunitoExtraBold', serif;
+}
+
+#modalSectionBtn {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.modalBtns {
+    font-family: 'NunitoExtraBold', serif;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
