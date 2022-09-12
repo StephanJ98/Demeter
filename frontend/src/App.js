@@ -12,7 +12,6 @@ function App() {
         <Route path='/' element={<Main />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
-        {/* To remove */} <Route path="/ruben" element={<Ruben />} />
         <Route path="*" element={<NoValidRoute />} />
       </Routes>
     </Router>
