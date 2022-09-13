@@ -20,7 +20,7 @@ export default function DayCard(props) {
         <div ref={refTotal} id={styles.dayCard}>
             <h3 ref={refTitle} id={styles.dayName}>{props.day[0].toUpperCase() + props.day.substring(1)}</h3>
             <div id={styles.dayTasks}>
-                <SubCard weektask={JSON.stringify(cookies.userWeekPlan[props.dayName])} height={height} sHour={800} fHour={2000} />
+                <SubCard dayTasks={JSON.stringify(cookies.userWeekPlan[props.dayName])} height={height} sHour={800} fHour={2000} />
                 {/*Tasks Day Id: {props.tasksId}*/}
             </div>
         </div>
