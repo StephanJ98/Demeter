@@ -3,7 +3,6 @@ import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import Main from './Pages/Main/Main';
 import NoValidRoute from './Pages/NoValidRoute/NoValidRoute';
-import Ruben from './Pages/Ruben/Ruben';
 
 function App() {
   return (

@@ -7,22 +7,35 @@
     background-color: #dee5eb;
     margin-bottom: 5px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.weekTask > div {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.weekTask > p {
+    flex: 8;
 }
 
 .weekTask > * {
     font-family: 'NunitoExtraBold', serif;
 }
 
-#startHour {
-    text-align: left;
+#hours {
     margin-left: 3px;
     font-weight: bold;
     font-size: 12px;
 }
 
-#endHour {
-    text-align: right;
-    margin-right: 3px;
-    font-weight: bold;
-    font-size: 12px;
+#taskName {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
